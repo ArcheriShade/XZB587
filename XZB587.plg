@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XZB587 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Archeri\AppData\Local\Temp\RSPC2CB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/XZB587.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\C_work\XZB587\Bmp.cpp"
+"D:\C_work\XZB587\DlgHistogram.cpp"
+]
+Creating command line "cl.exe @C:\Users\Archeri\AppData\Local\Temp\RSPC2CB.tmp" 
+Creating temporary file "C:\Users\Archeri\AppData\Local\Temp\RSPC2CC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/XZB587.pdb" /debug /machine:I386 /out:"Debug/XZB587.exe" /pdbtype:sept 
+.\Debug\Bmp.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\XZB587.obj
+.\Debug\XZB587Doc.obj
+.\Debug\XZB587View.obj
+.\Debug\XZB587.res
+.\Debug\DlgHistogram.obj
+]
+Creating command line "link.exe @C:\Users\Archeri\AppData\Local\Temp\RSPC2CC.tmp"
+<h3>Output Window</h3>
+Compiling...
+Bmp.cpp
+D:\C_work\XZB587\Bmp.cpp(95) : warning C4018: '<' : signed/unsigned mismatch
+DlgHistogram.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/XZB587.bsc"  .\Debug\StdAfx.sbr .\Debug\Bmp.sbr .\Debug\MainFrm.sbr .\Debug\XZB587.sbr .\Debug\XZB587Doc.sbr .\Debug\XZB587View.sbr .\Debug\DlgHistogram.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+XZB587.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
